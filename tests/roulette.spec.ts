@@ -12,4 +12,6 @@ test('Roulette full cycle test', async ({ page }: Page) => {
   await roulettePage.assertBettingButtonsVisibility('rolling');
   await roulettePage.waitForWinnerAnnouncement();
   await roulettePage.assertBettingButtonsVisibility('announcing');
+  await roulettePage.waitForBettingToStart();
+  await roulettePage.assertBettingButtonsVisibility('betting');
 });

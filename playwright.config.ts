@@ -8,7 +8,7 @@ export default defineConfig({
   timeout: 6 * 10000,
   fullyParallel: true,
   forbidOnly: true,
-  retries: 0,
+  retries: 1,
   workers: 3,
   reporter: 'html',
   use: {
@@ -20,10 +20,6 @@ export default defineConfig({
     {
       name: 'Desktop Chrome',
       use: { ...devices['Desktop Chrome'] }
-    },
-    // {
-    //   name: 'Mobile Chrome',
-    //   use: { ...devices['Pixel 5'] },
-    // }
+    }
   ]
 });
