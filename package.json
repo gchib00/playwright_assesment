@@ -1,0 +1,22 @@
+{
+  "name": "playwright_assesment",
+  "version": "1.0.0",
+  "description": "Playwright mini-project for assesment submission",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "npx playwright test"
+  },
+  "author": "Giorgi Chibukhashvili",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.41.2",
+    "@types/node": "^20.11.17",
+    "@typescript-eslint/eslint-plugin": "^6.21.0",
+    "@typescript-eslint/parser": "^6.21.0",
+    "eslint": "^8.56.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.4"
+  }
+}
