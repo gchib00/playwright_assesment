@@ -3,7 +3,7 @@ Installation:
 2) Ensure you have Chromium installed for Playwright (npx playwright install --with-deps chromium)
 3) Add a ".env" file (check .env_example)
 
-
+And then run "npm run test" for running the test case
 
 
 # Roulette cycle test case
