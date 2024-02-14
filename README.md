@@ -34,7 +34,7 @@ The wheel component displays a timer with a 15 second countdown
 4) Announcing state: (Announces the winning outcome to the user)
 - The timer from the wheel component remains hidden
 - Betting buttons remain disabled
-- The wheel component displays the winning outcome*
+- The wheel component displays the winning outcome
 - The betting button that represents the winning outcome appears to be enabled (But only visually. In practice, it is disabled/unclickable)
 - “Previous rolls” component is updated accordingly
 - Expires after 3 seconds
