@@ -14,9 +14,9 @@ Installation:
 Ensure the roulette cycle works as expected - should iterate through 3 states in a cycle (betting state -> rolling state -> announcing state -> betting state).
 
 ## Dependant components: 
-Roulette wheel (including the timer component)
-3 buttons for placing bets
-“Previous rolls” component
+- Roulette wheel
+- 3 buttons for placing bets
+- “Previous rolls” component
 
 ## Test steps:
 
